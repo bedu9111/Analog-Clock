@@ -1,0 +1,49 @@
+#clock-container {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    border: 2px solid black;
+    margin: 3rem auto;
+    /* border-radius: 50%; */
+    background-image: url(https://toppng.com/uploads/preview/opular-images-blank-analogue-clock-face-11562920866otsb8p3u8a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#hour {
+    height: 30%;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 3px;
+    position: absolute;
+    top: 20.5%;
+    left: 49.7%;
+    transform-origin: bottom;
+}
+
+#minute {
+    height: 35%;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 3px;
+ 
+    position: absolute;
+    top: 16%;
+    left: 49.7%;
+
+     transform-origin: bottom;
+}
+
+#second {
+    position: absolute;
+    height: 36%;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 3px;
+  
+    top: 15%;
+    left: 49.8%;
+
+     transform-origin: bottom;
+}
